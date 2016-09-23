@@ -162,7 +162,8 @@ header .down-arrow .material-icons:hover {
 .about-myself .skill-set {
   max-width: 700px;
   margin: 100px auto;
-  color: rgba(62, 58, 66, 0.98);
+  color: rgba(16, 15, 17, 0.7);
+  font-weight: 600;
 }
 
 .about-myself .skill-set::after {
@@ -206,43 +207,43 @@ header .down-arrow .material-icons:hover {
   margin: 2px;
 }
 
-.about-myself .skill-set .skill-unit .skill-icons.skill-1 span:nth-child(n + 1) {
+.about-myself .skill-set .skill-unit .skill-icons.skill-1 span:nth-child(n + 2) {
   background: rgba(224, 221, 227, 0.86);
 }
 
-.about-myself .skill-set .skill-unit .skill-icons.skill-2 span:nth-child(n + 2) {
+.about-myself .skill-set .skill-unit .skill-icons.skill-2 span:nth-child(n + 3) {
   background: rgba(224, 221, 227, 0.86);
 }
 
-.about-myself .skill-set .skill-unit .skill-icons.skill-3 span:nth-child(n + 3) {
+.about-myself .skill-set .skill-unit .skill-icons.skill-3 span:nth-child(n + 4) {
   background: rgba(224, 221, 227, 0.86);
 }
 
-.about-myself .skill-set .skill-unit .skill-icons.skill-4 span:nth-child(n + 4) {
+.about-myself .skill-set .skill-unit .skill-icons.skill-4 span:nth-child(n + 5) {
   background: rgba(224, 221, 227, 0.86);
 }
 
-.about-myself .skill-set .skill-unit .skill-icons.skill-5 span:nth-child(n + 5) {
+.about-myself .skill-set .skill-unit .skill-icons.skill-5 span:nth-child(n + 6) {
   background: rgba(224, 221, 227, 0.86);
 }
 
-.about-myself .skill-set .skill-unit .skill-icons.skill-6 span:nth-child(n + 6) {
+.about-myself .skill-set .skill-unit .skill-icons.skill-6 span:nth-child(n + 7) {
   background: rgba(224, 221, 227, 0.86);
 }
 
-.about-myself .skill-set .skill-unit .skill-icons.skill-7 span:nth-child(n + 7) {
+.about-myself .skill-set .skill-unit .skill-icons.skill-7 span:nth-child(n + 8) {
   background: rgba(224, 221, 227, 0.86);
 }
 
-.about-myself .skill-set .skill-unit .skill-icons.skill-8 span:nth-child(n + 8) {
+.about-myself .skill-set .skill-unit .skill-icons.skill-8 span:nth-child(n + 9) {
   background: rgba(224, 221, 227, 0.86);
 }
 
-.about-myself .skill-set .skill-unit .skill-icons.skill-9 span:nth-child(n + 9) {
+.about-myself .skill-set .skill-unit .skill-icons.skill-9 span:nth-child(n + 10) {
   background: rgba(224, 221, 227, 0.86);
 }
 
-.about-myself .skill-set .skill-unit .skill-icons.skill-10 span:nth-child(n + 10) {
+.about-myself .skill-set .skill-unit .skill-icons.skill-10 span:nth-child(n + 11) {
   background: rgba(224, 221, 227, 0.86);
 }
 
@@ -272,7 +273,7 @@ footer .bottom-footer .content_wrap {
 
 footer .bottom-footer .content_wrap nav a {
   font-size: 12px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.8px;
@@ -293,7 +294,7 @@ footer .bottom-footer .content_wrap p.copyright {
   margin: 0;
   text-transform: uppercase;
   font-size: 11px;
-  color: rgba(0, 0, 0, 0.46);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 @media screen and (max-width: 790px) {
