@@ -13,20 +13,10 @@ header {
 }
 
 header .top-header {
-  display: flex;
+  display: block;
   width: 100%;
-  align-items: center;
-  justify-content: space-between;
-}
-
-header .top-header .logo {
-  display: flex;
-  height: 50px;
-  width: 50px;
-  background: #999;
-  align-items: center;
-  margin: 20px 0 20px 30px;
-  border-radius: 50%;
+  text-align: right;
+  padding-top: 30px;
 }
 
 header .top-header nav a {
@@ -379,26 +369,15 @@ footer {
   width: 100vw;
 }
 
-footer .bottom-footer {
-  padding: 35px 70px;
-}
-
-footer .bottom-footer .logo {
-  height: 50px;
-  width: 50px;
-  float: left;
-  margin-right: 30px;
-  background: #666;
-  border-radius: 50%;
-}
-
-footer .bottom-footer .content_wrap {
+footer .content_wrap {
+  display: block;
   height: 60px;
-  padding: 10px 0;
+  padding: 50px 0;
+  text-align: center;
 }
 
-footer .bottom-footer .content_wrap nav a {
-  font-size: 12px;
+footer .content_wrap nav a {
+  font-size: 16px;
   color: rgba(0, 0, 0, 0.7);
   text-transform: uppercase;
   text-decoration: none;
@@ -409,18 +388,18 @@ footer .bottom-footer .content_wrap nav a {
   transition: all 200ms ease-in-out;
 }
 
-footer .bottom-footer .content_wrap nav a:nth-child(n+2) {
-  margin-left: 30px;
+footer .content_wrap nav a:nth-child(n+2) {
+  margin-left: 50px;
 }
 
-footer .bottom-footer .content_wrap nav a:hover {
+footer .content_wrap nav a:hover {
   color: rgba(255, 255, 255, 0.48);
 }
 
-footer .bottom-footer .content_wrap p.copyright {
+footer .content_wrap p.copyright {
   margin: 0;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -640,20 +619,20 @@ footer .bottom-footer .content_wrap p.copyright {
     font-size: 16px;
     letter-spacing: 4px;
   }
-  footer .bottom-footer {
-    padding-left: 15px;
-  }
-  footer .bottom-footer .content_wrap nav a {
-    font-size: 10px;
+  footer .content_wrap nav a {
+    font-size: 12px;
     letter-spacing: 0.4px;
     font-weight: 600;
     font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     line-height: 2;
   }
-  footer .bottom-footer .content_wrap nav a:nth-child(n+2) {
+  footer .content_wrap nav a:nth-child(n+2) {
     margin-left: 20px;
   }
-  footer .bottom-footer .content_wrap nav a:hover {
+  footer .content_wrap nav a:hover {
     color: rgba(255, 255, 255, 0.48);
+  }
+  footer .content_wrap p.copyright {
+    font-size: 10px;
   }
 }
