@@ -313,6 +313,59 @@ header .down-arrow .material-icons:hover {
   left: 0px;
 }
 
+.contact-section {
+  width: 100vw;
+  text-align: center;
+}
+
+.contact-section h3 {
+  margin-top: 100px;
+  text-transform: uppercase;
+  color: #ddc390;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-bottom: 50px;
+}
+
+.contact-section .social-links {
+  margin: 0 auto;
+}
+
+.contact-section .social-links a {
+  text-decoration: none;
+  background: #b3835f;
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  justify-content: space-around;
+  border-radius: 50%;
+  margin: 0 45px 50px 45px;
+}
+
+.contact-section .social-links a svg {
+  height: 50px;
+  width: 50px;
+}
+
+.contact-section .social-links a svg path {
+  fill: white;
+}
+
+.contact-section hr {
+  width: 20%;
+  height: 4px;
+  background: #b18463;
+}
+
+.contact-section h1 {
+  font-size: 40px;
+  color: #b18463;
+  font-weight: 100;
+  letter-spacing: 10px;
+  padding: 50px 0;
+}
+
 footer {
   background: url("../Images/header.jpg");
   background-size: cover;
