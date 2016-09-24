@@ -1,0 +1,208 @@
+@media screen and (min-width:600px)and(max-width:800px)
+
+  header
+    h1
+      font-size: 52px
+      font-weight: 500
+      letter-spacing: 6px
+      span
+        border: 7px solid white
+    .kicker
+      top: 3em
+  .about-myself
+      .skill-set
+        display: block
+        padding: 0 20px 0 10px
+        margin: 30px auto
+        .skill-unit
+          display: block
+          padding-left: 70px
+          text-align: right
+          width: 80%
+          margin: 0 auto
+
+          &:nth-child(2n)
+            text-align: right
+          .skill-label
+            float: left
+            margin-right: 0
+            margin-left: 0
+
+          .skill-icons
+            text-align: right
+            margin: 0 0 10px 20px
+            span
+              +size(10px)
+              &:last-child
+                margin-right: 0
+  .contact-section
+    .social-links
+      a
+        margin: 0 30px 50px 30px
+
+
+@media screen and (min-width:401px) and (max-width:599px)
+
+  header
+    h1
+      font-size: 32px
+      font-weight: 300
+      letter-spacing: 4px
+      span
+        border: 4px solid white
+    nav
+      a
+        font-size: 10px
+        font-weight: 600
+    .kicker
+      font-size: 12px
+      letter-spacing: 2px
+      top: 2em
+
+  .about-myself
+    .circle-images
+      display: block
+      text-align: center
+      .face-img
+        display: block
+        margin: 0 auto 30px auto
+
+    div
+      display: inline-block
+      margin: 0 30px 0 30px
+
+    .skill-set
+      display: block
+      padding: 0 20px 0 10px
+      margin: 30px auto
+      .skill-unit
+        display: block
+        padding-left: 40px
+        text-align: right
+        width: 80%
+        margin: 0 auto
+
+        &:nth-child(2n)
+          text-align: right
+        .skill-label
+          float: left
+          margin-right: 0
+          margin-left: 0
+
+        .skill-icons
+          text-align: right
+          margin: 0 0 10px 20px
+          span
+            +size(10px)
+            &:last-child
+              margin-right: 0
+  .alt-section
+    .work-container
+      .work-unit
+        width: 50%
+        padding-top: 24%
+        .work-overlay
+          strong
+            font-size: 20px
+  .contact-section
+    .social-links
+      a
+        margin: 0 35px 50px 35px
+    h1
+      font-size: 20px
+
+@media screen and (max-width:400px)
+
+  header
+    h1
+      font-size: 22px
+      font-weight: 300
+      letter-spacing: 3px
+      span
+        border: 2px solid white
+        padding: 5px 15px
+    nav
+      a
+        font-size: 8px
+        font-weight: 500
+        margin-left: 10px
+    .kicker
+      font-size: 10px
+      letter-spacing: 0
+      top: 0
+    .down-arrow
+      .material-icons
+        font-size: 52px
+  .about-myself
+    .circle-images
+      display: block
+      text-align: center
+      .face-img
+        display: block
+        margin: 0 auto 30px auto
+      [class^="icon-"]
+        +size(80px)
+        svg
+          padding: 25px
+          +size(30px)
+    div
+      display: inline-block
+      margin: 0 30px 0 30px
+
+    .skill-set
+      display: block
+      padding: 0 10px 0 10px
+      margin: 30px auto
+      .skill-unit
+        display: block
+        padding-left: 5px
+        text-align: right
+        width: 100%
+        margin: 0 auto
+
+        &:nth-child(2n)
+          text-align: right
+        .skill-label
+          float: left
+          margin-right: 0
+          margin-left: 0
+
+        .skill-icons
+          text-align: right
+          margin: 0 0 10px 10px
+          span
+            +size(10px)
+            &:last-child
+              margin-right: 0
+  .alt-section
+    .work-container
+      .work-unit
+        width: 50%
+        padding-top: 24%
+        .work-overlay
+          strong
+            font-size: 20px
+  .contact-section
+    .social-links
+      a
+        margin: 0 25px 50px 25px
+    h1
+      font-size: 16px
+      letter-spacing: 4px
+  footer
+    .bottom-footer
+      padding-left: 15px
+
+      .content_wrap
+
+        nav
+          a
+            font-size: 10px
+            letter-spacing: 0.4px
+            font-weight: 600
+            font-family: $helvetica
+            line-height: 2
+            &:nth-child(n+2)
+              margin-left: 20px
+            &:hover
+              color: rgba(255, 255, 255, 0.48)

@@ -1,0 +1,78 @@
+.about-myself
+  h3
+    text-transform: uppercase
+    color: #ddc390
+    text-align: center
+    letter-spacing: 1px
+    padding: 100px 0 30px
+  .circle-images
+    display: flex
+    max-width: 780px
+    margin: 0 auto
+    align-items: center
+    justify-content: space-around
+
+    .face-img
+      +size(200px)
+      background: url('../Images/face.jpg')
+      background-size: cover
+      border-radius: 50%
+      order: 3
+    [class^="icon-"]
+      +size(100px)
+      background: #e5eaee
+      border-radius: 50%
+      svg
+        padding: 25px
+        +size(50px)
+
+      &.icon-pencil
+        order: 1
+      &.icon-mouse
+        order: 2
+      &.icon-browser
+        order: 4
+      &.icon-mobile
+        fill: #d1a700
+        order: 5
+
+  .personal
+    display: block
+    max-width: 620px
+    margin: 50px auto
+    padding: 0 20px
+    text-align: center
+    font-size: 24px
+    font-weight: 300
+  .skill-set
+    max-width: 700px
+    margin: 100px auto
+    color: rgba(16, 15, 17, 0.7)
+    font-weight: 600
+    +clearfix
+    .skill-unit
+      width: 350px
+      float: left
+      display: inline-block
+      &:nth-child(2n)
+        text-align: right
+      .skill-icons
+        font-size: 0
+        margin: 0px 0px 40px
+        text-align: center
+        display: inline-block
+        span
+          display: inline-block
+          +size(14px)
+          background-color: rgb(201, 4, 4)
+          margin-right: 8px
+          border-radius: 50%
+          &:after
+            content: ''
+            display: block
+            border-radius: 50%
+            +size(10px)
+            margin: 2px
+        @for $i from 1 through 10
+          &.skill-#{$i} span:nth-child(n + #{$i + 1})
+            background: rgba(224, 221, 227, 0.86)

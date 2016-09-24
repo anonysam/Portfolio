@@ -1,0 +1,80 @@
+body
+  margin: 0
+
+header
+  background: url('../Images/header.jpg')
+  height: 100vh
+  width: 100vw
+  background-size: cover
+  display: flex
+  justify-content: space-between
+  flex-direction: column
+
+
+  .top-header
+    display: flex
+    width: 100%
+    align-items: center
+    justify-content: space-between
+    .logo
+      display: flex
+      +size(50px)
+      background: #999
+      align-items: center
+      margin: 20px 0 20px 30px
+      border-radius: 50%
+
+    nav
+
+      a
+        margin-left: 20px
+        color: rgba(0, 0, 0, 0.7)
+        text-transform: uppercase
+        text-decoration: none
+        letter-spacing: 0.2em
+        font-weight: 900
+        font-family: $helvetica
+        transition: color 300ms ease-in
+        &:last-child
+          margin-right: 2em
+
+
+        &:hover
+          color: rgba(255, 255, 255, 0.48)
+
+  h1
+    display: inline-block
+    position: absolute
+    text-align: center
+    width: 100%
+    top: 40vh
+    margin: 0 auto
+    font-size: 72px
+    font-weight: 700
+    color: rgb(247, 247, 247)
+    text-transform: uppercase
+    letter-spacing: 8px
+
+    span
+      border: 10px solid white
+      padding: 10px 30px
+  .kicker
+    display: block
+    position: relative
+    top: 5em
+    color: white
+    text-transform: uppercase
+    text-align: center
+    font-size: 14px
+    font-weight: 700
+    letter-spacing: 4px
+  .down-arrow
+    text-align: center
+    .material-icons
+      font-size: 82px
+      color: rgba(255, 255, 255, 0.58)
+      transition: all 200ms ease-in-out
+    .material-icons:hover
+      color: white
+      cursor: pointer
+      transform: scale(1.5)
