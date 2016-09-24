@@ -5,6 +5,7 @@ body {
 header {
   background: url("../Images/header.jpg");
   height: 100vh;
+  width: 100vw;
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -247,6 +248,71 @@ header .down-arrow .material-icons:hover {
   background: rgba(224, 221, 227, 0.86);
 }
 
+.work-section {
+  background-color: #e5eaee;
+  width: 100vw;
+}
+
+.work-section h3 {
+  text-transform: uppercase;
+  color: #ddc390;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 100px 0 50px;
+}
+
+.work-section .work-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.work-section .work-container::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.work-section .work-container .work-unit {
+  display: block;
+  width: 25%;
+  float: left;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 12%;
+  overflow: hidden;
+}
+
+.work-section .work-container .work-unit .work-overlay {
+  position: absolute;
+  top: 100%;
+  right: 0px;
+  left: 0px;
+  height: 100%;
+  background: rgba(196, 17, 17, 0.56);
+  -webkit-transition: all 0.15s ease-out 0s;
+  -moz-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.work-section .work-container .work-unit .work-overlay strong {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.work-section .work-container .work-unit:hover .work-overlay {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
 footer {
   background: url("../Images/header.jpg");
   background-size: cover;
@@ -355,6 +421,13 @@ footer .bottom-footer .content_wrap p.copyright {
   }
   .about-myself .skill-set .skill-unit .skill-icons span:last-child {
     margin-right: 0;
+  }
+  .work-section .work-container .work-unit {
+    width: 50%;
+    padding-top: 24%;
+  }
+  .work-section .work-container .work-unit .work-overlay strong {
+    font-size: 20px;
   }
   footer .bottom-footer {
     padding-left: 15px;

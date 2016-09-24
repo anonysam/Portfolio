@@ -5,6 +5,7 @@ body
 header
   background: url('../Images/header.jpg')
   height: 100vh
+  width: 100vw
   background-size: cover
   display: flex
   justify-content: space-between
@@ -157,6 +158,57 @@ header
           &.skill-#{$i} span:nth-child(n + #{$i + 1})
             background: rgba(224, 221, 227, 0.86)
 
+.work-section
+  background-color: #e5eaee
+  width: 100vw
+
+  h3
+    text-transform: uppercase
+    color: #ddc390
+    text-align: center
+    letter-spacing: 1px
+    padding: 100px 0 50px
+  .work-container
+    max-width: 1280px
+    margin: 0 auto
+    padding-bottom: 100px
+    +clearfix
+
+    .work-unit
+      display: block
+      width: 25%
+      float: left
+      background-size: cover
+      background-position: center center
+      background-repeat: no-repeat
+      position: relative
+      padding-top: 12%
+      overflow: hidden
+
+
+      .work-overlay
+        +position(absolute, 100% 0px null 0px)
+        height: 100%
+        background: fade-out(rgba(#c41111, 0.86), 0.3)
+        +transition
+        display: flex
+        align-items: center
+        justify-content: space-around
+
+        strong
+          color: rgba(255, 255, 255, 0.76)
+          font-size: 24px
+          text-transform: uppercase
+      &:hover .work-overlay
+        +position(absolute, 0px 0px null 0px)
+
+
+
+
+
+
+
+
 
 
 
@@ -251,6 +303,14 @@ footer
 
             &:last-child
               margin-right: 0
+  .work-section
+    .work-container
+      .work-unit
+        width: 50%
+        padding-top: 24%
+        .work-overlay
+          strong
+            font-size: 20px
 
   footer
     .bottom-footer
