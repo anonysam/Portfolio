@@ -248,12 +248,12 @@ header .down-arrow .material-icons:hover {
   background: rgba(224, 221, 227, 0.86);
 }
 
-.work-section {
+.alt-section {
   background-color: #e5eaee;
   width: 100vw;
 }
 
-.work-section h3 {
+.alt-section h3 {
   text-transform: uppercase;
   color: #ddc390;
   text-align: center;
@@ -261,19 +261,19 @@ header .down-arrow .material-icons:hover {
   padding: 100px 0 50px;
 }
 
-.work-section .work-container {
+.alt-section .work-container {
   max-width: 1280px;
   margin: 0 auto;
   padding-bottom: 100px;
 }
 
-.work-section .work-container::after {
+.alt-section .work-container::after {
   clear: both;
   content: "";
   display: table;
 }
 
-.work-section .work-container .work-unit {
+.alt-section .work-container .work-unit {
   display: block;
   width: 25%;
   float: left;
@@ -285,7 +285,7 @@ header .down-arrow .material-icons:hover {
   overflow: hidden;
 }
 
-.work-section .work-container .work-unit .work-overlay {
+.alt-section .work-container .work-unit .work-overlay {
   position: absolute;
   top: 100%;
   right: 0px;
@@ -300,13 +300,13 @@ header .down-arrow .material-icons:hover {
   justify-content: space-around;
 }
 
-.work-section .work-container .work-unit .work-overlay strong {
+.alt-section .work-container .work-unit .work-overlay strong {
   color: rgba(255, 255, 255, 0.76);
   font-size: 24px;
   text-transform: uppercase;
 }
 
-.work-section .work-container .work-unit:hover .work-overlay {
+.alt-section .work-container .work-unit:hover .work-overlay {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -363,7 +363,7 @@ footer .bottom-footer .content_wrap p.copyright {
   color: rgba(0, 0, 0, 0.6);
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 800px) {
   header nav a {
     font-size: 10px;
   }
@@ -422,11 +422,11 @@ footer .bottom-footer .content_wrap p.copyright {
   .about-myself .skill-set .skill-unit .skill-icons span:last-child {
     margin-right: 0;
   }
-  .work-section .work-container .work-unit {
+  .alt-section .work-container .work-unit {
     width: 50%;
     padding-top: 24%;
   }
-  .work-section .work-container .work-unit .work-overlay strong {
+  .alt-section .work-container .work-unit .work-overlay strong {
     font-size: 20px;
   }
   footer .bottom-footer {
