@@ -37,7 +37,7 @@ header .top-header nav a {
   letter-spacing: 0.2em;
   font-weight: 900;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  transition: color 300ms ease-in;
+  transition: all 200ms ease-in-out;
 }
 
 header .top-header nav a:last-child {
@@ -283,6 +283,7 @@ header .down-arrow .material-icons:hover {
   position: relative;
   padding-top: 12%;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .alt-section .work-container .work-unit .work-overlay {
@@ -341,6 +342,12 @@ header .down-arrow .material-icons:hover {
   justify-content: space-around;
   border-radius: 50%;
   margin: 0 45px 50px 45px;
+  transition: all 200ms ease-in;
+  opacity: 1;
+}
+
+.contact-section .social-links a:hover {
+  transform: scale(1.5);
 }
 
 .contact-section .social-links a svg {
@@ -399,6 +406,7 @@ footer .bottom-footer .content_wrap nav a {
   font-weight: 600;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   line-height: 2;
+  transition: all 200ms ease-in-out;
 }
 
 footer .bottom-footer .content_wrap nav a:nth-child(n+2) {
@@ -551,7 +559,7 @@ footer .bottom-footer .content_wrap p.copyright {
     padding: 5px 15px;
   }
   header nav a {
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 500;
     margin-left: 10px;
   }
@@ -579,6 +587,9 @@ footer .bottom-footer .content_wrap p.copyright {
     padding: 25px;
     height: 30px;
     width: 30px;
+  }
+  .about-myself .personal {
+    font-size: 18px;
   }
   .about-myself div {
     display: inline-block;

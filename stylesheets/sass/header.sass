@@ -18,7 +18,8 @@ header
     justify-content: space-between
     .logo
       display: flex
-      +size(50px)
+      height: 50px
+      width: 50px
       background: #999
       align-items: center
       margin: 20px 0 20px 30px
@@ -34,13 +35,14 @@ header
         letter-spacing: 0.2em
         font-weight: 900
         font-family: $helvetica
-        transition: color 300ms ease-in
+        transition: all 200ms ease-in-out
         &:last-child
           margin-right: 2em
 
 
         &:hover
           color: rgba(255, 255, 255, 0.48)
+      
 
   h1
     display: inline-block
